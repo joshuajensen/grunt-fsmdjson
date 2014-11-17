@@ -1,0 +1,26 @@
+{
+  "name": "grunt-fsmdjson",
+  "version": "0.0.1",
+  "description": "grunt task for transforming a directory tree of markdown prefaced files into json data containing parsed markdown",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mintshrm/grunt-fsmdjson.git"
+  },
+  "keywords": [
+    "grunt",
+    "json",
+    "markdown",
+    "sass",
+    "fs"
+  ],
+  "author": "Joshua Jensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mintshrm/grunt-fsmdjson/issues"
+  },
+  "homepage": "https://github.com/mintshrm/grunt-fsmdjson"
+}
