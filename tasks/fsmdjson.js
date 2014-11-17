@@ -13,7 +13,7 @@ module.exports = function (grunt) {
   var fs = require('fs');
   var markdown = require('marked');
 
-  grunt.registerMultiTask('fsmdjson', 'transforms a directory tree of markdown prefaced files into json data containing parsed markdown', function (a, b) {
+  grunt.registerMultiTask('fsmdjson', 'Transforms a directory tree of markdown prefaced files into nested json data containing parsed markdown', function (a, b) {
     var data = {};
     var skippedFiles = 0;
     var options = this.options({

@@ -18,9 +18,15 @@
     "fs"
   ],
   "author": "Joshua Jensen",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mintshrm/grunt-fsmdjson/issues"
   },
-  "homepage": "https://github.com/mintshrm/grunt-fsmdjson"
+  "homepage": "https://github.com/mintshrm/grunt-fsmdjson",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "marked": "^0.3.2"
+  }
 }
